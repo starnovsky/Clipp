@@ -1,0 +1,6 @@
+﻿@using Microsoft.AspNet.Identity
+@using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+{
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger pull-right" value="Log out">Log out</button>
+}

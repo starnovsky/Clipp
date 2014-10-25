@@ -1,0 +1,7 @@
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\obj\Debug\Perficient.CloudClippboard.Logging.csprojResolveAssemblyReference.cache
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\bin\Debug\Perficient.CloudClippboard.Logging.dll
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\bin\Debug\Perficient.CloudClippboard.Logging.pdb
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\bin\Debug\Perficient.CloudClippboard.Entities.dll
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\bin\Debug\Perficient.CloudClippboard.Entities.pdb
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\obj\Debug\Perficient.CloudClippboard.Logging.dll
+C:\Source\Azure\Perficient.CloudClippboard\Perficient.CloudClippboard.Logging\obj\Debug\Perficient.CloudClippboard.Logging.pdb

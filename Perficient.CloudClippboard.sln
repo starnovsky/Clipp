@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perficient.CloudClippboard", "Perficient.CloudClippboard\Perficient.CloudClippboard.csproj", "{DB4F2B99-DE7C-48BB-B629-66EBB994E9CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F26098E8-BF1D-41BE-AB3D-71BECB5A1FD4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{750F3AD6-05E5-4BB1-8E9A-53E36D0A7913}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\PerficientCloudClippboard-WAWS-dev.json = PublishScripts\Configurations\PerficientCloudClippboard-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perficient.CloudClippboard.Entities", "Perficient.CloudClippboard.Entities\Perficient.CloudClippboard.Entities.csproj", "{45823BE4-F479-451E-B44A-B9A6EB1245E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perficient.CloudClippboard.Persistence", "Perficient.CloudClippboard.Persistence\Perficient.CloudClippboard.Persistence.csproj", "{86CC97BE-1217-4860-AA53-7840CC221A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perficient.CloudClippboard.Logging", "Perficient.CloudClippboard.Logging\Perficient.CloudClippboard.Logging.csproj", "{6CD64AEB-BE46-46E1-9665-191B522E4287}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Perficient.CloudClippboard.CloudService", "Perficient.CloudClippboard.CloudService\Perficient.CloudClippboard.CloudService.ccproj", "{959A5667-7A1F-45F3-8B8B-AB768A465DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perficient.CloudClippboard.WorkerRole", "Perficient.CloudClippboard.WorkerRole\Perficient.CloudClippboard.WorkerRole.csproj", "{07FB6766-9180-4C45-AB96-D59EE99048D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4F2B99-DE7C-48BB-B629-66EBB994E9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4F2B99-DE7C-48BB-B629-66EBB994E9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4F2B99-DE7C-48BB-B629-66EBB994E9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4F2B99-DE7C-48BB-B629-66EBB994E9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45823BE4-F479-451E-B44A-B9A6EB1245E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45823BE4-F479-451E-B44A-B9A6EB1245E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45823BE4-F479-451E-B44A-B9A6EB1245E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45823BE4-F479-451E-B44A-B9A6EB1245E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CC97BE-1217-4860-AA53-7840CC221A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CC97BE-1217-4860-AA53-7840CC221A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CC97BE-1217-4860-AA53-7840CC221A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CC97BE-1217-4860-AA53-7840CC221A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD64AEB-BE46-46E1-9665-191B522E4287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD64AEB-BE46-46E1-9665-191B522E4287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD64AEB-BE46-46E1-9665-191B522E4287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD64AEB-BE46-46E1-9665-191B522E4287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959A5667-7A1F-45F3-8B8B-AB768A465DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959A5667-7A1F-45F3-8B8B-AB768A465DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959A5667-7A1F-45F3-8B8B-AB768A465DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959A5667-7A1F-45F3-8B8B-AB768A465DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FB6766-9180-4C45-AB96-D59EE99048D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FB6766-9180-4C45-AB96-D59EE99048D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FB6766-9180-4C45-AB96-D59EE99048D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FB6766-9180-4C45-AB96-D59EE99048D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{750F3AD6-05E5-4BB1-8E9A-53E36D0A7913} = {F26098E8-BF1D-41BE-AB3D-71BECB5A1FD4}
+	EndGlobalSection
+EndGlobal

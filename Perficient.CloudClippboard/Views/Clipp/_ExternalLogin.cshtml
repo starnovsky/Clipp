@@ -1,0 +1,14 @@
+﻿@using Microsoft.Owin.Security
+
+@{
+    var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+    using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = "/" }))
+    {
+        @Html.AntiForgeryToken()
+        foreach (AuthenticationDescription p in loginProviders)
+        {
+            <button type="submit" class="btn btn-danger pull-right" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in with @p.Caption">Login using @p.AuthenticationType</button><br/>
+        }
+    }
+}
+
